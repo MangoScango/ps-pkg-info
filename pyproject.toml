@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ps-pkg-info"
+version = "0.1.0"
+description = "PS4 and PS5 PKG metadata parser"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+packages = ["ps_pkg_info"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
